@@ -18,8 +18,8 @@ git branch -d <branch_name>
 git merge <dest_bn> <src_bn></pre>
 
 
-<b>git help</b>  </br>
-Take help from github help section for different commands and other errors.
+<pre><b>git help</b>  </br>
+Take help from github help section for different commands and other errors.</pre>
 
 <b>git init </b>  </br>
 To create a local git repository for us in our store folder.This will help to manage the git commands for that particular repository.
