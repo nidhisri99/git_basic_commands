@@ -18,136 +18,136 @@ git branch -d <branch_name>
 git merge <dest_bn> <src_bn>
 
 
-git help 
+<b>git help</b>  </br>
 Take help from github help section for different commands and other errors.
 
-git init 
+<b>git init </b>  </br>
 To create a local git repository for us in our store folder.This will help to manage the git commands for that particular repository.
 
-git status 
+<b>git status </b>  </br>
 To see whats changed since last commit.It shows all the files that have been added and modified and ready to be commmitted and files which are untracked
 
-git config 
+<b>git config </b>  </br>
 To set the basic configurations on github like your name and email.
 
-git config –global user.name “Yourname” 
+<b>git config –global user.name “Yourname” </b>  </br>
 Sets configuration values for your user name on git.
 
-git config –global user.email Yourmailid@gmail.com
+<b>git config –global user.email Yourmailid@gmail.com</b>  </br>
 Sets configuration values for your user email on git.
 
-git add Readme.txt
+<b>git add Readme.txt</b>  </br>
 To add a file Readme.txt to the staging area to track its changes.
 
-git commit -m “Created a Readme.txt” 
+<b>git commit -m “Created a Readme.txt” </b>  </br>
 To commit our changes(taking a snapshot) and providing a message to remember for future reference.
 
-git log 
+<b>git log </b>  </br>
 To check the history of commits for our reference.
 
-Different ways to use add command:
+<b>Different ways to use add command:</b>  </br>
 
-git add
+<b>git add</b>  </br>
 To add a specific list of files to staging area.
 
-git add --all
+<b>git add --all</b>  </br>
 To add all files of current directory to staging area.
 
-git add *.txt
+<b>git add *.txt</b>  </br>
 To add all text files of the current directory to staging area.
 
-git add docs/*.txt
+<b>git add docs/*.txt</b>  </br>
 To add all text files of a particular directory(docs) to staging area.
 
-git add docs/
+<b>git add docs/</b>  </br>
 To add all files in a particular directory(docs) to staging area.
 
-git add “*.txt”
+<b>git add “*.txt”</b>  </br>
 To add text files of entire project to staging area.
 
-git diff
+<b>git diff</b>  </br>
 To figure out what changes you made since last commit.
 
-git reset head license
+<b>git reset head license</b>  </br>
 To undo staging of the file that was added in the staging area.
 
-git checkout –license
+<b>git checkout –license</b>  </br>
 To Blow away all changes since the last commit of the file.
 
-git commit -a -m “Readme.md”
+<b>git commit -a -m “Readme.md”</b>  </br>
 To add any of our tracked files to staging area and commit them by providing a message to remember.
 
-git reset –soft HEAD^
+<b>git reset –soft HEAD^</b>  </br>
 To undo last commit and bring file to staging area.
 
-git reset –hard HEAD^
+<b>git reset –hard HEAD^</b>  </br>
 To undo last commit and remove file from the staging area as well(In case we went horribly wrong).
 
-git reset –hard HEAD^^
+<b>git reset –hard HEAD^^</b>  </br>
 To undo last 2 commits and all changes.
 
-git remote add origin https://github.com/nidhisri99/git_basic_commands.git
-This commands make a bookmark which signifies that this particular remote refers to this URL.
-This remote will be used to pull any content from the directory and push our local content to the global server.
+<b>git remote add origin https://github.com/nidhisri99/git_basic_commands.git</b>  </br>
+This commands make a bookmark which signifies that this particular remote refers to this URL. </br>
+This remote will be used to pull any content from the directory and push our local content to the global server.</br>
 
-git remote add <address> 
+<b>git remote add <address> </b>  </br>
 To add new remotes to our local repository for a particular git address.
 
-git remove rm
+<b>git remove rm</b>  </br>
 To remove a remote from our local repository.
 
-git push -u origin master
+<b>git push -u origin master</b>  </br>
 To push all the contents of our local repository that belong to master branch to the server(Global repository).
 
-git clone https://github.com/nidhisri99/git_basic_commands.git
+<b>git clone https://github.com/nidhisri99/git_basic_commands.git</b>  </br>
 To clone or make a local copy of the global repository in your system
 (git clone command downloads the repository and creates a remote named as origin which can be checked by command – git remote -v).
 
-git branch Testing
+<b>git branch Testing</b>  </br>
 To create a new branch named as Testing.
 
-git branch
+<b>git branch</b>  </br>
 To see all the branches present and current branch that we are working on.
 
-git checkout Testing
+<b>git checkout Testing</b>  </br>
 To switch to branch Testing from master branch.
 
-ls
+<b>ls</b>  </br>
 To see directories and files in the current directory.
 
-git merge Testing
+<b>git merge Testing</b>  </br></b>  </br>
 To merge Testing branch with master branch.
 
-git branch -d Testing
+<b>git branch -d Testing</b>  </br>
 To delete Testing branch.
 
-git checkout -b admin
+<b>git checkout -b admin</b>  </br>
 To create a new branch admin and set it as current branch.
 
-git branch -r
+<b>git branch -r</b> </br>
 To look at all the remote branches.
 
-git branch -D Testing
+<b>git branch -D Testing</b>  </br>
 To forcefully delete a branch without making commmits.
 
-git tag
+<b>git tag</b>  </br>
 To see the list of available tags.
 
-git checkout v0.0.1
+<b>git checkout v0.0.1</b>  </br>
 To set the current tag to v0.0.1.
 
-git tag -a v0.0.3 -m “version 0.0.3”
+<b>git tag -a v0.0.3 -m “version 0.0.3”</b>  </br>
 To create a new tag.
 
-git push –tags
+<b>git push –tags</b>  </br>
 To push the tags to remote repository.
 
-git fetch
+<b>git fetch</b>  </br>
 To fetch down any changes from global repository to current repository
 
-git rebase
+<b>git rebase</b>  </br>
 Three tasks are performed by git rebase
 
-Move all changes to master which are not in origin/master to a temporary area.
-Run all origin master commits.
-Run all commits in the temporary area on top of our master one at a time, so it avoids merge commits.
+Move all changes to master which are not in origin/master to a temporary area. </br>
+Run all origin master commits.</br>
+Run all commits in the temporary area on top of our master one at a time, so it avoids merge commits.</br>
