@@ -4,7 +4,7 @@ Git is the most commonly used version control system. Git tracks the changes you
 
 Git basics commands
 
-git init
+<pre>git init
 git status 
 git log
 git add <file_name> 
@@ -15,7 +15,7 @@ git push origin <branch_name>
 git checkout -b <new_branch_name> ==> will checkout to given new_branch_name
 git branch <branch-name>
 git branch -d <branch_name>
-git merge <dest_bn> <src_bn>
+git merge <dest_bn> <src_bn></pre>
 
 
 <b>git help</b>  </br>
