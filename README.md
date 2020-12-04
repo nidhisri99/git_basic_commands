@@ -21,7 +21,7 @@ git merge <dest_bn> <src_bn></pre>
 <pre><b>git help</b>  </br>
 Take help from github help section for different commands and other errors.</pre>
 
-<b>git init </b>  </br>
+<pre><b>git init </b>  </br>
 To create a local git repository for us in our store folder.This will help to manage the git commands for that particular repository.
 
 <b>git status </b>  </br>
@@ -151,3 +151,4 @@ Three tasks are performed by git rebase
 Move all changes to master which are not in origin/master to a temporary area. </br>
 Run all origin master commits.</br>
 Run all commits in the temporary area on top of our master one at a time, so it avoids merge commits.</br>
+</pre>
