@@ -1,6 +1,6 @@
 git basics commands
 
-
+git init
 git status 
 git log
 git add <file_name> 
@@ -14,3 +14,11 @@ git branch -d <branch_name>
 git merge <dest_bn> <src_bn>
 
 
+<b>git help</b> --> Take help from github help section for different commands and other errors.
+git init --> To create a local git repository for us in our store folder.This will help to manage the git commands for that particular repository.
+git status --> To see whats changed since last commit.It shows all the files that have been added and modified and ready to be commmitted and files which are untracked
+git config -->To set the basic configurations on github like your name and email.
+git config –global user.name “Yourname” --> Sets configuration values for your user name on git.
+git config –global user.email Yourmailid@gmail.com --> Sets configuration values for your user email on git.
+git add Readme.txt --> To add a file Readme.txt to the staging area to track its changes.
+git commit -m “Created a Readme.txt” --> To commit our changes(taking a snapshot) and providing a message to remember for future reference.
